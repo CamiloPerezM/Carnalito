@@ -27,4 +27,4 @@ setup_administrator_commands(bot)
 bot.add_listener(on_message)
  
 # Se inicia la ejecución del bot con el token proporcionado.
-bot.run(TOKEN)
+#bot.run(TOKEN)
