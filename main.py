@@ -10,8 +10,8 @@ from commands.administrator_commands import setup_administrator_commands
 
 from events.event_vrg import on_message
 
-load_dotenv()
-TOKEN = os.getenv('TOKEN')
+#load_dotenv()
+#TOKEN = os.getenv('TOKEN')
 
 # Se crean los intents para permitir ciertas funcionalidades del bot en el servidor.
 intents = discord.Intents().all()
@@ -27,4 +27,4 @@ setup_administrator_commands(bot)
 bot.add_listener(on_message)
  
 # Se inicia la ejecución del bot con el token proporcionado.
-bot.run(TOKEN)
+#bot.run(TOKEN)
