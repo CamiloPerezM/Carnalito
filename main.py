@@ -2,7 +2,7 @@
 #Este código importa la librería Discord.py y las funciones commands de esa librería.
 
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import discord
 from discord.ext import commands
 from commands.recreational_commands import setup_recreation_commands
